@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4C48D721591BC700681610 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C48D621591BC700681610 /* FirstViewController.swift */; };
 		6B7DDFBB21572292005E80CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DDFBA21572292005E80CE /* AppDelegate.swift */; };
-		6B7DDFBD21572292005E80CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DDFBC21572292005E80CE /* ViewController.swift */; };
+		6B7DDFBD21572292005E80CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DDFBC21572292005E80CE /* LoginViewController.swift */; };
 		6B7DDFC021572292005E80CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7DDFBE21572292005E80CE /* Main.storyboard */; };
 		6B7DDFC221572292005E80CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7DDFC121572292005E80CE /* Assets.xcassets */; };
 		6B7DDFC521572292005E80CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7DDFC321572292005E80CE /* LaunchScreen.storyboard */; };
+		6B7DDFCD2157256B005E80CE /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7DDFCC2157256B005E80CE /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B4C48D621591BC700681610 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		6B7DDFB721572292005E80CE /* tabController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7DDFBA21572292005E80CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B7DDFBC21572292005E80CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B7DDFBC21572292005E80CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6B7DDFBF21572292005E80CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B7DDFC121572292005E80CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B7DDFC421572292005E80CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B7DDFC621572292005E80CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7DDFCC2157256B005E80CE /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				6B7DDFBA21572292005E80CE /* AppDelegate.swift */,
-				6B7DDFBC21572292005E80CE /* ViewController.swift */,
+				6B7DDFBC21572292005E80CE /* LoginViewController.swift */,
 				6B7DDFBE21572292005E80CE /* Main.storyboard */,
 				6B7DDFC121572292005E80CE /* Assets.xcassets */,
 				6B7DDFC321572292005E80CE /* LaunchScreen.storyboard */,
 				6B7DDFC621572292005E80CE /* Info.plist */,
+				6B7DDFCC2157256B005E80CE /* MainTabController.swift */,
+				6B4C48D621591BC700681610 /* FirstViewController.swift */,
 			);
 			path = tabController;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B7DDFBD21572292005E80CE /* ViewController.swift in Sources */,
+				6B7DDFBD21572292005E80CE /* LoginViewController.swift in Sources */,
 				6B7DDFBB21572292005E80CE /* AppDelegate.swift in Sources */,
+				6B7DDFCD2157256B005E80CE /* MainTabController.swift in Sources */,
+				6B4C48D721591BC700681610 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				6B7DDFCB21572292005E80CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
